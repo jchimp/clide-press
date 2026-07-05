@@ -1,0 +1,68 @@
+/* ClidePress — publish dialog */
+
+.cp-modal {
+  width: 640px;
+  max-width: 90vw;
+}
+
+.cp-modal-header {
+  margin: 0 0 12px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.cp-header-row {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.cp-header-row + .cp-header-row {
+  margin-top: 4px;
+}
+
+.cp-header-label {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.cp-header-value {
+  color: var(--text-normal);
+  font-size: var(--font-ui-medium);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.cp-field-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 12px;
+  align-items: baseline;
+  margin: 12px 0 0 0;
+}
+
+.cp-field-label {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--text-muted);
+}
+
+.cp-field-value,
+.cp-mono {
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-normal);
+  overflow-wrap: anywhere;
+}
+
+.cp-warning {
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: var(--radius-s);
+  background-color: var(--background-modifier-error);
+  color: var(--text-on-accent);
+  font-weight: 600;
+}

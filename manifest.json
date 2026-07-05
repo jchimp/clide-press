@@ -1,0 +1,9 @@
+{
+  "id": "clide-press",
+  "name": "ClidePress",
+  "version": "0.2.0",
+  "minAppVersion": "1.4.0",
+  "description": "Publish the active note to a local clide static-site repo as an Article, Gallery, or Project. Copies the note and its images, rewrites Obsidian wikilinks/embeds to standard Markdown, and emits clide-shaped frontmatter.",
+  "author": "Jeremy Champion",
+  "isDesktopOnly": true
+}
